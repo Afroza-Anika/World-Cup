@@ -1,0 +1,244 @@
+/*------------------------ font-styles------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+
+
+/*---------------------- common styles----------------------- */
+
+body .head {
+   
+   margin-left: 40px;
+    
+}
+.body .head .heading-part{
+    justify-content: center;
+}
+
+
+/*--------------------- Head-section---------------------------- */
+
+.heading-part{
+    width: 950px;
+    height: 450px;
+    background-color: rgba(8, 7, 7, 0.885);
+    display:flex;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-style: none;
+    margin-bottom: 80px;
+
+}
+
+.heading-part .heading-info{
+    font-family: 'Poppins', sans-serif;
+}
+.heading-info{
+   width: 400px;
+   height: 410px;
+   margin-top: 100px;
+   color: beige;
+}
+
+.head-img img{
+    width: 390px;
+    height: 400px;
+    margin-top: 53px;
+  
+   
+    
+}
+ .heading-info .click{
+    border-style: none;
+    color: blanchedalmond;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(206, 8, 8);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    /* position: absolute; */
+} 
+.click .fa-greater-than{
+    padding-left: 9px;
+}
+
+/*---------------------------- main-section----------------------------- */
+
+.main-part{
+    width: 100%;
+    height: 400px;
+}
+
+.main-part .container{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    /* border: 1px solid; */
+    grid-row-gap: 20px;
+}
+    
+.main-part .container .one-part{
+    display:flex;
+    justify-content: center;
+  
+}
+.main-part .container .two-part{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+   
+}
+.container .one-part #info{
+    width: 200px;
+    height:200px;
+    background-color: rgba(8, 7, 7, 0.885) ;
+    border-radius: 8px;
+}
+.one-part #info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+   
+}
+#info .unfilled {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    width: 160px;
+    height:30px ;
+    margin: 10px ;
+    border-radius: 5px;
+    border-style: none;
+}
+#info .filled{
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    width: 160px;
+    height:30px ;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(206, 8, 8);
+    border-style: none;
+}
+
+.one-part .transfer{
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: white;
+    margin-left: 20px;
+}
+.one-part .transfer .image{
+    width: 100%;
+}
+.one-part .transfer .Trans{
+    background-color: white;
+    width: 80px;
+    border-radius: 3px;
+}
+.transfer .cl-msg .fa-message{
+    margin-left: 20px;
+}
+
+
+.two-part .transfer{
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: white;
+}
+.two-part .transfer .image{
+    width: 100%;
+}
+.two-part .transfer .Trans{
+    background-color: white;
+    width: 80px;
+    border-radius: 3px;
+}
+.transfer .cl-msg .fa-message{
+    margin-left: 20px;
+}
+.two-part #one{
+    margin: 10px;
+    padding-left: 290px;
+}
+.two-part #two{
+    margin: 10px;
+}
+.two-part #three{
+    margin: 10px;
+}
+
+
+
+
+/*------------------ footer-styles--------------------- */
+.foot{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(8, 7, 7, 0.885) ;
+    width: 100%;
+    /* height: 400px; */
+    color: beige;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+footer h1{
+    padding-top: 100px;
+}
+footer hr{
+    width: 80%;
+    color: rgb(94, 90, 90);
+}
+footer .bottom{
+    font-size: 15px;
+    color: lightgray;
+    display: flex;
+    padding-left: 250px;
+}
+footer .bottom .end{
+    padding: 20px;
+}
+
+/*------------------- links-------------------- */
+
+.links{
+    display: flex;
+    padding-bottom: 10px;
+}
+.links .facebook{
+    padding-left: 400px;
+    display: flex;
+    align-items: center;
+}
+.links .instagram{
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.links .twitter{
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.links .link{
+    color:wheat;
+    padding-left: 5px;
+}
+.link{
+    text-decoration: none;
+}
